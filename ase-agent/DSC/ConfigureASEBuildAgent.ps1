@@ -18,7 +18,7 @@ configuration ConfigureASEBuildAgentDsc
         [String]$AppDns,
 
         [Parameter(Mandatory=$false)]
-        [String]$VSTSAgentUrl = "https://vstsagentpackage.azureedge.net/agent/2.127.0/vsts-agent-win-x64-2.127.0.zip"
+        [String]$VSTSAgentUrl = "https://vstsagentpackage.azureedge.net/agent/2.141.1/vsts-agent-win-x64-2.141.1.zip"
     )
     
     Import-DscResource -ModuleName xNetworking, 'PSDesiredStateConfiguration'
